@@ -1,37 +1,30 @@
+import Section_2 from "./Section-2";
+import Section_3 from "./Section-3";
 
-const Body =()=>{
-    return(
+const Body = () => {
+    return (
         <>
+            <div className=" h-auto  flex-col">
+                <section className="relative h-[90vh] bg-cover bg-center" style={{backgroundImage: "url('https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1770&amp;q=80')"}}>
 
-            <div>
-            <img src="https://franchiseindia.s3.ap-south-1.amazonaws.com/uploads/content/wi/art/health-wellness-banner-ca24683a23.jpg" className=" m-auto" alt=""/>
+                        <div className="absolute w-[42%] top-40 left-16  p-5">
+                            <h1 className="text-5xl font-serif font-bold text-center text-black">Let us find your</h1>
+                            <h1 className="text-5xl font-serif font-bold text-center text-red-600">Forever Food.</h1>
+                            <p className="text-lg font-sans font-semibold">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo tenetur fuga ducimus numquam ea!</p>
+                            <div className="flex justify-start">
+                                <button className="bg-red-600 w-32 h-10 rounded-lg text-white cursor-pointer font-serif font-bold m-3">Search Now</button>
+                                <button className="bg-white w-32 h-10 rounded-lg text-red-500 cursor-pointer font-serif font-bold m-3">Know More</button>
+                            </div>
+                        </div>
+
+                </section>
+                
+               <Section_2/>
+
+               <Section_3 />
             </div>
-
-            <div className=" bg-pink-800 text-white m-10">
-                <h1 className=" text-4xl m-auto p-5 text-center font-sans font-bold">Think Health. Think Message</h1>
-                <p className="m-auto text-center font-serif p-10 text-2xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi, culpa iste! Ullam, inventore alias? Vitae facilis accusantium, unde qui ipsum rem odio, enim, soluta tempora doloribus fugiat iure dolore illum?</p>
-                <div className="flex m-auto p-5 justify-evenly">
-                    <button className=" bg-blue-800 cursor-pointer">LEARN MORE ABOUT US</button>
-                    <button className="  bg-blue-800 cursor-pointer"> CONTACT TODAY</button>
-                </div>
-            </div>
-
-            <div>
-                <p className=" text-red-500 m-10 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum fuga adipisci, blanditiis repellat nesciunt ut inventore commodi? Ducimus, id quidem doloremque aspernatur consequatur sint corporis omnis veniam inventore, similique possimus pariatur reprehenderit cupiditate eligendi consectetur eos dolore beatae necessitatibus!</p>
-                <p className="m-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum fuga adipisci, blanditiis repellat nesciunt ut inventore commodi? Ducimus, id quidem doloremque aspernatur consequatur sint corporis omnis veniam inventore, similique possimus pariatur reprehenderit cupiditate eligendi consectetur eos dolore beatae necessitatibus!</p>
-                <p className="m-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolorum fuga adipisci, blanditiis repellat nesciunt ut inventore commodi? Ducimus, id quidem doloremque aspernatur consequatur sint corporis omnis veniam inventore, similique possimus pariatur reprehenderit cupiditate eligendi consectetur eos dolore beatae necessitatibus!</p>
-            </div>
-
-            <div className="border-t-[3px] m-10">
-
-                <h1 className=" text-red-400 text-center p-2">    family wellness massage thraphy</h1>
-                <p className="text-center p-2">    abc@gmail.com </p>
-                <p className="text-center p-2">   phone :: 74673658325782xx</p>
-
-            </div>
-            
         </>
-    )
-}
+    );
+};
 
 export default Body;

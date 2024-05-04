@@ -3,16 +3,23 @@ import React from 'react';
 const Header = () => {
     return (
         <>
-            <h1 className="text-red-800 font-bold text-4xl text-left ml-10">Family Wellness</h1>
-            <h3 className="text-left ml-10 mt-6">MESSAGE THERAPY</h3>
-            <div className="bg-gray-600">
-                <ul className="flex justify-between m-10 my-5">
-                    <li className=" bg-red-400 px-5 py-3 ">HOME</li>
-                    <li className=" bg-red-400 px-5 py-3">ABOUT</li>
-                    <li className=" bg-red-400 px-5 py-3">SERVICE</li>
-                    <li className=" bg-red-400 px-5 py-3">FAQ</li>
-                    <li className=" bg-red-400 px-5 py-3">CONTACT</li>
-                </ul>
+            <div className=' flex justify-around m-5'>
+                <div className=' flex '>
+                    <a className='' href='./'><img src='https://flowbite.com/docs/images/logo.svg'/></a>
+                    <h2 className=' text-2xl font-serif px-2'>GeekFoods</h2>
+                </div>
+                <div>
+                    <ul className=' flex  justify-around'>
+                        <li className='px-2 cursor-pointer  font-semibold'>Home</li>
+                        <li className='px-2 cursor-pointer  font-semibold'>Quote</li>
+                        <li className='px-2 cursor-pointer  font-semibold'>Resturants</li>
+                        <li className='px-2 cursor-pointer  font-semibold'>Foods</li>
+                        <li className='px-2 cursor-pointer  font-semibold'>Contact</li>
+                    </ul>
+                </div>
+                <div>
+                    <button className=' bg-blue-800 text-whir  font-semibold rounded-md text-white w-120 h-10  text-center'>Get Started</button>
+                </div>
             </div>
         </>
     );
