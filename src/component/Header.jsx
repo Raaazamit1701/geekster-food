@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <>
@@ -10,8 +10,8 @@ const Header = () => {
                 </div>
                 <div>
                     <ul className=' flex  justify-around'>
-                        <li className='px-2 cursor-pointer  font-semibold'>Home</li>
-                        <li className='px-2 cursor-pointer  font-semibold'>Quote</li>
+                        <li className='px-2 cursor-pointer  font-semibold'> <Link to={"/"}>Home</Link></li>
+                        <li className='px-2 cursor-pointer  font-semibold'><Link to={"/Qoute"}>Quotes</Link></li>
                         <li className='px-2 cursor-pointer  font-semibold'>Resturants</li>
                         <li className='px-2 cursor-pointer  font-semibold'>Foods</li>
                         <li className='px-2 cursor-pointer  font-semibold'>Contact</li>
