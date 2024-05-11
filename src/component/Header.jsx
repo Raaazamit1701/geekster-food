@@ -12,7 +12,7 @@ const Header = () => {
                     <ul className=' flex  justify-around'>
                         <li className='px-2 cursor-pointer  font-semibold'> <Link to={"/"}>Home</Link></li>
                         <li className='px-2 cursor-pointer  font-semibold'><Link to={"/Qoute"}>Quotes</Link></li>
-                        <li className='px-2 cursor-pointer  font-semibold'>Resturants</li>
+                        <li className='px-2 cursor-pointer  font-semibold'><Link to={"/restorent"}>Resturants</Link></li>
                         <li className='px-2 cursor-pointer  font-semibold'>Foods</li>
                         <li className='px-2 cursor-pointer  font-semibold'>Contact</li>
                     </ul>

@@ -1,6 +1,7 @@
 import Body from "./Body";
 import Footer from "./Footer";
 import Header from "./Header";
+import Restorent from "./Restorents";
 import Quotes from "./quotes";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -24,6 +25,15 @@ function App() {
         </>
   
       },
+      {
+        path:"/restorent",
+        element:
+          <>
+              <Header />
+              <Restorent />
+              <Footer/>
+          </>
+        }
      
     ])
   
